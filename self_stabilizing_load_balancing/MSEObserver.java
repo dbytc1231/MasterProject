@@ -86,7 +86,6 @@ public class MSEObserver implements Control {
         double avgLoad = totalLoad / nodeCount;
     //    double discrepancy = maxLoad - minLoad;
 
-        // 原有MSE計算邏輯保持不變
         double mse = 0;
         for (int i = 0; i < nodeCount; i++) {
             Node node = Network.get(i);
