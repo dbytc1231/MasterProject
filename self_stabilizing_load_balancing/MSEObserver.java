@@ -26,7 +26,6 @@ public class MSEObserver implements Control {
 
         try {
             writer = new BufferedWriter(new FileWriter(outputFilename, false));
-            // 修改CSV表頭
             if (debug) {
                 writer.write("Cycle,MSE,Avg,Min,Max,Discrepancy\n");
             } else {
